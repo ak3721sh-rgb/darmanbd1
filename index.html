@@ -1,4 +1,4 @@
-<title>درمان بدون دارو ۱</title>
+<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#e8c26a"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="icon" href="icon-192.png"><title>درمان بدون دارو ۱</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap">
 <style>
@@ -763,3 +763,5 @@ checkReminders();
 }catch(e){document.getElementById('app').textContent='خطا: '+e.message;}
 })();
 </script>
+
+<script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){});});}</script>
